@@ -14,10 +14,10 @@ int main()
 	cv::Mat dst2;
 	cv::Mat dst;
 
-	ifftDemo(src1,0.7,dst1);
+	ifftDemo(src1,0.5,dst1);
 	imshow("dst1", dst1);
 
-	ifftDemo(src2,0.5, dst2);
+	ifftDemo(src2,0.3, dst2);
 	imshow("dst2", dst2);
 
 	add(dst2, dst1, dst);
